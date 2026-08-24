@@ -1,20 +1,7 @@
-# Taxonomy of Embodied Agent Technologies
-
-## Organizing Principle
-
-We view an embodied agent as a closed-loop intelligent system
-that continuously interacts with the physical world through:
-
-Perception → Reasoning → Planning → Execution
-       ↑                         ↓
-       └── Memory ← Feedback ←───┘
-01 = What does the agent perceive and understand?
-
-02 = What should the agent do?
-
-03 = How does the agent physically execute the decision?
-
-04 = What does the agent remember and learn?
-
-05 = How does the overall system remain reliable,
-     adaptive and generalizable?
+| 编号 | 主题                                          | 它回答的问题                 |
+| -- | ------------------------------------------- | ---------------------- |
+| 1  | **Foundation Models for Embodied Agents**   | Agent 的基础模型能力从哪里来？     |
+| 2  | **Planning and Reasoning**                  | Agent 如何理解目标、分解任务和做决策？ |
+| 3  | **Skills and Action Execution**             | Agent 如何把计划变成真实机器人动作？  |
+| 4  | **Memory and Self-Evolution**               | Agent 如何积累经验并持续变强？     |
+| 5  | **Agentic Systems and Reliable Deployment** | 前面这些模块如何组成可靠的真实系统？     |
